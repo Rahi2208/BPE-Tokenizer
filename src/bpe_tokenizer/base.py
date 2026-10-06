@@ -157,6 +157,6 @@ class Tokenizer:
             
 
 """
-vocab terdiri dari 3 jenis dtype, (asciii, special tokens, merged tokens), maka build vocab, save and load, harus ada itu pokoknya, 
-kecuali di save, tambahin self.pattern juga karena kita save pattern nya (regex) with .rstrip('\n') 
+vocab consist of 3 dtype, (asciii, special tokens, merged tokens), so in build vocab, save and load, there must be all of them 
+except in save module, moreover, we need to add self.pattern cause we save the pattern for later use 
 """
