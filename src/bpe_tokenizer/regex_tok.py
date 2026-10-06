@@ -41,7 +41,7 @@ class RegexTokenizer(Tokenizer):
             
             if not stats:
                 if verbose:
-                    print(f"berhenti lebih awal setelah {i} merge: tidak ada lagi yang bisa digabung")
+                    print(f"stop early at {i} merge: none is available to be merged")
                 break
  
             pair = max(stats, key=stats.get)
