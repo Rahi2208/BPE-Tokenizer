@@ -1,4 +1,4 @@
-# bpe-tokenizer
+# LLM Tokenization (BPE-tokenizer)
 
 A from-scratch **Byte Pair Encoding (BPE)** tokenizer in Python, the same family of algorithm behind GPT-2 and GPT-4. It has two tokenizers:
 
