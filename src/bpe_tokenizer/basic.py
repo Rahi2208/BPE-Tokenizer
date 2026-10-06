@@ -24,7 +24,7 @@ class BasicTokenizer(Tokenizer):
             merges[pair] = idx 
             vocab[idx] = vocab[pair[0]] + vocab[pair[1]]
             print(f"merge {i + 1}/{num_merges}: {pair} -> {idx} "
-                f"({vocab[idx]!r}) muncul {stats[pair]} kali")
+                f"({vocab[idx]!r}) appear {stats[pair]} times")
  
         
         self.merges = merges
