@@ -1,6 +1,8 @@
 # LLM Tokenization (BPE-tokenizer)
 
-A from-scratch **Byte Pair Encoding (BPE)** tokenizer in Python, the same family of algorithm behind GPT-2 and GPT-4. It has two tokenizers:
+A from-scratch **Byte Pair Encoding (BPE)** tokenizer in Python, the same family of algorithm behind GPT-2 and GPT-4. Inspired by Andrej Karpathy's work on gpt-tokenizer. 
+
+It has two tokenizers:
 
 - **`BasicTokenizer`**: plain byte-level BPE over the raw text stream.
 - **`RegexTokenizer`**: splits the text into chunks with the GPT-2 / GPT-4 regex before BPE, and supports special tokens such as `<|endoftext|>`.
